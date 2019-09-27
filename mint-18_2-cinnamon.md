@@ -7,7 +7,7 @@ Using a USB drive containing Mint 18.2 (preferably without persistence) boot int
 | 1.|in a terminal, type `sudo -i` ;<br> press Enter|*CTRL + ALT +T* opens terminal <br>`sudo -i` creates an instance of superuser|
 |2.|`lsblk`|to view existing paritions|
 |3.|`fdisk /dev/sda`| |
-|4.|`o`|to create DOS table|
+|4.|`o`|to create DOS tables|
 |5.|`w`|to write to disk and exit|
 |6.|`parted /dev/sda`|to edit partition|
 |7.|`unit GiB`|set units to gigabytes|
