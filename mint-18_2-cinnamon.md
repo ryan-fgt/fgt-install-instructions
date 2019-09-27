@@ -25,7 +25,7 @@ Using a USB drive containing Mint 18.2 (preferably without persistence) boot int
 |19.|`mkfs -t ext4 /dev/mint18.2cinn64/root`|to create root file system|
 |20.|`mkfs -t ext4 /dev/mint18.2cinn64/home`|to create home file system|
 |21.|`mkswap /dev/mint18.2cinn64/swap`|to create swap file|
-|22.|`dmidecode | grep “Serial Number”`|to list serial number in BIOS|
+|22.|`dmidecode \| grep "Serial Number"`|to list serial number in BIOS|
 |23.|select, highlight and copy a serial number|to be a unique computer identifier|
 |24.|double click on *Install* icon|**Start Mint Installation**|
 |25.|set English language and Continue| |
